@@ -28,7 +28,7 @@ function Progress(props){
   return (
     <div className="mi-progress">
       <h6 className="mi-progress-title">{props.title}</h6>
-      {Title == "D3.js" ? <D3Icon /> : <FontAwesomeIcon icon={["fab", Icon]} />}
+      {Title === "D3.js" ? <D3Icon /> : <FontAwesomeIcon icon={["fab", Icon]} />}
     </div>
    
   );
